@@ -13,3 +13,9 @@ echo "You lost the game">> $PATH
 fi
 
 echo "GAME OVER">> $PATH
+
+# added below commands in branch2
+echo "1: memory details --">>$PATH
+lsmem >> $PATH
+echo "1: cpu details --">>$PATH
+lscpu >> $PATH
