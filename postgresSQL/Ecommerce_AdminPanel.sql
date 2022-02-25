@@ -93,6 +93,9 @@ as
    INNER JOIN categories c
    ON p.catid = c.catid
    
+
+-- Now Fire the queries --
+
  select * from order_details  
    
  insert into users(username) values ('Vishal'),('Tom'),('Dhanush');
